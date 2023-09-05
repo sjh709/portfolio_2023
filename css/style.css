@@ -193,3 +193,64 @@ a {
 .imageGroup2 {
   width: 150px;
 }
+
+/* Educations */
+#educations {
+  background-color: var(--color-purple);
+}
+
+.educations__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+
+.educations__item {
+  background-color: var(--color-yellow);
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  flex: 1;
+  cursor: default;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.38);
+  transition: all 500ms ease;
+}
+
+.educations__item:hover {
+  transform: translateY(10px);
+}
+
+.education__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.education__line {
+  height: 1px;
+  background-color: var(--color-black);
+  margin-bottom: 2rem;
+}
+
+.group__items {
+  text-align: start;
+}
+
+.group__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.number__icon {
+  color: var(--color-orange);
+}
+
+.item__name {
+  font-size: 0.95rem;
+}
+
+.item__period {
+  font-size: 0.8rem;
+  color: var(--color-darkGray);
+}
