@@ -67,6 +67,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
 .header__title {
@@ -253,4 +254,39 @@ a {
 .item__period {
   font-size: 0.8rem;
   color: var(--color-darkGray);
+}
+
+/* Arrow up */
+.arrow-up {
+  background-color: var(--color-purple);
+  color: var(--color-yellow);
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  font-size: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 4.5rem;
+  box-shadow: 5px 5px 0px 0px var(--color-yellow);
+}
+
+/* Footer */
+.contact__description {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.contact__links {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.contact__link {
+  transition: color 250ms ease-in;
+}
+
+.contact__link:hover {
+  color: var(--color-purple);
 }
