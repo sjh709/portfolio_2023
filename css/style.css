@@ -256,6 +256,64 @@ a {
   color: var(--color-darkGray);
 }
 
+/* Career */
+.career__metadata {
+  display: flex;
+  margin: 1.5rem 0;
+  gap: 1rem;
+}
+
+.career__img {
+  width: 200px;
+  height: 150px;
+}
+
+.career__contents {
+  text-align: left;
+  padding: 0 2rem;
+  border-left: 1px solid var(--color-purple);
+}
+
+.career__contents section {
+  margin-bottom: 2rem;
+}
+
+.company__name {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.career__period {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: var(--color-darkGray);
+}
+
+.career__description {
+  font-size: 1.1rem;
+}
+
+.career__description::after {
+  content: "";
+  margin: 1rem 0;
+  display: block;
+  background-color: var(--color-purple);
+  width: 100%;
+  height: 1px;
+}
+
+.career__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.career__descriptions {
+  font-size: 1.1rem;
+  margin: 1rem 1rem;
+  list-style-type: circle;
+}
+
 /* Arrow up */
 .arrow-up {
   background-color: var(--color-purple);
