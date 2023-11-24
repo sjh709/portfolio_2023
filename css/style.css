@@ -24,7 +24,7 @@ html {
 
 body {
   background-color: var(--color-gray);
-  font-family: "NanumSquare", sans-serif;
+  font-family: 'NanumSquare', sans-serif;
   margin: 0;
 }
 
@@ -190,6 +190,10 @@ button {
   transition: all 500ms ease;
 }
 
+.about__skill:nth-child(2) .skill__title {
+  font-size: 1.2rem;
+}
+
 .about__skill:hover {
   transform: translateY(10px);
 }
@@ -325,7 +329,7 @@ button {
 }
 
 .career__description::after {
-  content: "";
+  content: '';
   margin: 1.3rem -1.8rem;
   display: block;
   background-color: var(--color-purple);
@@ -354,8 +358,8 @@ button {
 .projects {
   padding: 2rem 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
 }
 
@@ -489,6 +493,10 @@ button {
     flex-direction: column;
     margin: auto;
     margin-bottom: 1.5rem;
+  }
+
+  .about__skill:nth-child(2) .skill__title {
+    font-size: 2rem;
   }
 
   .imageGroup1 {
